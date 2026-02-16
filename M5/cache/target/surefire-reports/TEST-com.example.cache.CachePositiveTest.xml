@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.cache.CachePositiveTest" time="0.048" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="J:\Java-Program\Java-Training-modules\M5\cache\target\test-classes;J:\Java-Program\Java-Training-modules\M5\cache\target\classes;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="J:\Java\JDK\bin"/>
+    <property name="sun.java.command" value="C:\Users\pradeep.DESKTOP-BE5N6B8\AppData\Local\Temp\surefire4210501797723767114\surefirebooter-20260130151926097_3.jar C:\Users\pradeep.DESKTOP-BE5N6B8\AppData\Local\Temp\surefire4210501797723767114 2026-01-30T15-19-25_806-jvmRun1 surefire-20260130151926097_1tmp surefire_0-20260130151926097_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="J:\Java-Program\Java-Training-modules\M5\cache\target\test-classes;J:\Java-Program\Java-Training-modules\M5\cache\target\classes;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pradeep.DESKTOP-BE5N6B8"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="J:\Java\JDK"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="J:\Java-Program\Java-Training-modules\M5\cache"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\pradeep.DESKTOP-BE5N6B8\AppData\Local\Temp\surefire4210501797723767114\surefirebooter-20260130151926097_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="pradeep"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pradeep.DESKTOP-BE5N6B8\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRADEE~1.DES\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="J:\Java-Program\Java-Training-modules\M5\cache"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="J:\Java\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;J:\Intern@KANINI\node_modules;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Polyspace\R2021a\runtime\win64;C:\Program Files\Polyspace\R2021a\bin;C:\Program Files\Polyspace\R2021a\polyspace\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\GitHub CLI\;J:\Java\maven\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\pradeep.DESKTOP-BE5N6B8\scoop\shims;C:\Users\pradeep.DESKTOP-BE5N6B8\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\bin;C:\Users\pradeep.DESKTOP-BE5N6B8\AppData\Roaming\npm;C:\Users\pradeep.DESKTOP-BE5N6B8\.dotnet\tools;C:\Users\pradeep.DESKTOP-BE5N6B8\AppData\Local\GitHubDesktop\bin;C:\Users\pradeep.DESKTOP-BE5N6B8\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testDifferentDataTypes" classname="com.example.cache.CachePositiveTest" time="0.002">
+    <system-out><![CDATA[15:19:32.060 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: 1
+15:19:32.060 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: 2
+15:19:32.060 [main] DEBUG com.example.cache.Cache - Cache hit for key: 1
+15:19:32.060 [main] DEBUG com.example.cache.Cache - Cache hit for key: 2
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateExistingKey" classname="com.example.cache.CachePositiveTest" time="0.002">
+    <system-out><![CDATA[15:19:32.064 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: updateKey
+15:19:32.064 [main] DEBUG com.example.cache.Cache - Updated cache entry for key: updateKey
+15:19:32.064 [main] DEBUG com.example.cache.Cache - Cache hit for key: updateKey
+15:19:32.064 [main] DEBUG com.example.cache.Cache - Cache size requested: 1
+]]></system-out>
+  </testcase>
+  <testcase name="testClear" classname="com.example.cache.CachePositiveTest" time="0.003">
+    <system-out><![CDATA[15:19:32.068 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: key1
+15:19:32.068 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: key2
+15:19:32.068 [main] DEBUG com.example.cache.Cache - Cache size requested: 2
+15:19:32.068 [main] INFO  com.example.cache.Cache - Cache cleared. Previous size: 2
+15:19:32.068 [main] DEBUG com.example.cache.Cache - Cache size requested: 0
+15:19:32.068 [main] DEBUG com.example.cache.Cache - Cache isEmpty check returned: true
+15:19:32.068 [main] DEBUG com.example.cache.Cache - ContainsKey check for key: key1 returned: false
+15:19:32.068 [main] DEBUG com.example.cache.Cache - ContainsKey check for key: key2 returned: false
+]]></system-out>
+  </testcase>
+  <testcase name="testSize" classname="com.example.cache.CachePositiveTest" time="0.002">
+    <system-out><![CDATA[15:19:32.072 [main] DEBUG com.example.cache.Cache - Cache size requested: 0
+15:19:32.072 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: key1
+15:19:32.073 [main] DEBUG com.example.cache.Cache - Cache size requested: 1
+15:19:32.073 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: key2
+15:19:32.073 [main] DEBUG com.example.cache.Cache - Cache size requested: 2
+15:19:32.073 [main] DEBUG com.example.cache.Cache - Removed cache entry for key: key1
+15:19:32.073 [main] DEBUG com.example.cache.Cache - Cache size requested: 1
+]]></system-out>
+  </testcase>
+  <testcase name="testContainsKey" classname="com.example.cache.CachePositiveTest" time="0.002">
+    <system-out><![CDATA[15:19:32.076 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: existingKey
+15:19:32.076 [main] DEBUG com.example.cache.Cache - ContainsKey check for key: existingKey returned: true
+15:19:32.076 [main] DEBUG com.example.cache.Cache - ContainsKey check for key: nonExistentKey returned: false
+]]></system-out>
+  </testcase>
+  <testcase name="testPutAndGet" classname="com.example.cache.CachePositiveTest" time="0.002">
+    <system-out><![CDATA[15:19:32.080 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: testKey
+15:19:32.080 [main] DEBUG com.example.cache.Cache - Cache hit for key: testKey
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNonExistentKey" classname="com.example.cache.CachePositiveTest" time="0.004">
+    <system-out><![CDATA[15:19:32.084 [main] DEBUG com.example.cache.Cache - Cache miss for key: nonExistent
+]]></system-out>
+  </testcase>
+  <testcase name="testNullValues" classname="com.example.cache.CachePositiveTest" time="0.001">
+    <system-out><![CDATA[15:19:32.087 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: nullValueKey
+15:19:32.087 [main] DEBUG com.example.cache.Cache - ContainsKey check for key: nullValueKey returned: true
+15:19:32.087 [main] DEBUG com.example.cache.Cache - Cache miss for key: nullValueKey
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveNonExistentKey" classname="com.example.cache.CachePositiveTest" time="0.001">
+    <system-out><![CDATA[15:19:32.090 [main] DEBUG com.example.cache.Cache - Attempted to remove non-existent key: nonExistent
+]]></system-out>
+  </testcase>
+  <testcase name="testRemoveExistingKey" classname="com.example.cache.CachePositiveTest" time="0.004">
+    <system-out><![CDATA[15:19:32.095 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: keyToRemove
+15:19:32.095 [main] DEBUG com.example.cache.Cache - Removed cache entry for key: keyToRemove
+15:19:32.095 [main] DEBUG com.example.cache.Cache - ContainsKey check for key: keyToRemove returned: false
+15:19:32.095 [main] DEBUG com.example.cache.Cache - Cache miss for key: keyToRemove
+]]></system-out>
+  </testcase>
+  <testcase name="testIsEmpty" classname="com.example.cache.CachePositiveTest" time="0.002">
+    <system-out><![CDATA[15:19:32.100 [main] DEBUG com.example.cache.Cache - Cache isEmpty check returned: true
+15:19:32.100 [main] DEBUG com.example.cache.Cache - Added new cache entry for key: key
+15:19:32.100 [main] DEBUG com.example.cache.Cache - Cache isEmpty check returned: false
+15:19:32.100 [main] DEBUG com.example.cache.Cache - Removed cache entry for key: key
+15:19:32.100 [main] DEBUG com.example.cache.Cache - Cache isEmpty check returned: true
+]]></system-out>
+  </testcase>
+</testsuite>

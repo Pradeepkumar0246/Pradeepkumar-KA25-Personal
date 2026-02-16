@@ -1,0 +1,6 @@
+orderId,product,quantity,price
+101,Laptop,2,70000
+102,Phone,-1,30000
+103,Mouse,1,abc
+104,,5,2000
+105,Keyboard,2,2500
