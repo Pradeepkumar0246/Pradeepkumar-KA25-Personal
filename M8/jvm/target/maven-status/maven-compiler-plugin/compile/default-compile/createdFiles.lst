@@ -1,0 +1,6 @@
+com\example\JvmInfoPrinter.class
+com\example\MemoryStress.class
+com\example\Main.class
+com\example\CpuStress.class
+com\example\MemoryLeak.class
+com\example\Scenario.class
